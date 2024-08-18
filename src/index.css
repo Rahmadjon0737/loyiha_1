@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+/* @layer components {
+  .no-calendar::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+  
+  .no-calendar::-moz-calendar-picker-indicator {
+    opacity: 0;
+  }
+  
+  .no-calendar {
+    position: relative;
+  }
+} */
+
+
+.bgImg{
+    background-image: url('./assets/Rectangle11.svg'); 
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+}
+.bgImgP{
+    background-image: url('./assets/Rectangle12.png');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+}
+
+
+.no-calendar {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 16px;
+    outline: none;
+    width: 100%;
+}
